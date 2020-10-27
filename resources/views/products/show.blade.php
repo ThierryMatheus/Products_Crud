@@ -10,8 +10,9 @@
         {{-- @php
             var_dump($product->image->path);
         @endphp --}}
-        <img class="card-img-top" src="{{env('APP_URL')}}storage/{{$product->image->path}}" alt="Card image cap">
-
+        <div style="width:200px;">
+        <img class="card-img-top" src="{{env('APP_URL')}}storage/{{$product->image->path}}" alt="Card image cap" style="max-width:200px;">
+        </div>
       </div>
     </div>
 @endsection

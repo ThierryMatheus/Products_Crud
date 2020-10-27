@@ -5,7 +5,7 @@
 <div class="row">
   <div class="col">
     <div class="pull-left">
-      <h2>Index Produtos</h2>
+      <h2>Seus Produtos</h2>
     </div>
   </div>
 </div>
@@ -39,7 +39,7 @@
       </a>
     </td>
     <td>
-        {{$product->value}}
+       R${{$product->value}}
       </a>
     </td>
     <td>

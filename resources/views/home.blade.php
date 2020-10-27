@@ -11,9 +11,11 @@
     <div class="card-body">
         <p class="card-title">Vendendor: {{$product->user->name}}</p>
         <p class="card-text">Preço: R${{$product->value}}</p>
+        <div style="width:200px;">
         @isset($product->image)
-        <img class="card-img-top" src="{{asset('storage/'.$product->image->path)}}">
+        <img class="card-img-top" src="{{asset('storage/'.$product->image->path)}}" style="max-width:200px;">
         @endisset
+    </div>
     </div>
 
     @endforeach

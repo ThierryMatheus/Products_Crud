@@ -23,7 +23,7 @@
   </div>  
   <div class="form-group">
     <label for="exampleInputEmail1">Imagem do Produto</label>
-  <img src="{{asset('storage/'.$product->image->path)}}">
+  <img src="{{asset('storage/'.$product->image->path)}}" style="max-width:200px;">
     <input type="file" class="form-control" name="image" id="image">
   </div> 
   <button type="submit" class="btn btn-primary">Editar</button>
