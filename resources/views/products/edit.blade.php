@@ -21,11 +21,11 @@
     <label for="exampleInputEmail1">Preço do Produto</label>
     <input type="text" class="form-control" name="value" value="{{$product->value}}">
   </div>  
-  {{-- <div class="form-group">
-    <label for="exampleInputEmail1">Imagem do Veiculo</label>
-  <img src="{{asset('storage/'.$vehicle->image->path)}}">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Imagem do Produto</label>
+  <img src="{{asset('storage/'.$product->image->path)}}">
     <input type="file" class="form-control" name="image" id="image">
-  </div>  --}}
+  </div> 
   <button type="submit" class="btn btn-primary">Editar</button>
 </form>
 

@@ -18,10 +18,10 @@
       <label for="exampleInputEmail1">Preço do Produto</label>
       <input type="text" class="form-control" name="value" placeholder="R$0,00">
     </div> 
-    {{-- <div class="form-group">
+    <div class="form-group">
       <label for="exampleInputEmail1">Imagem do Produto</label>
       <input type="file" class="form-control" name="image" id="image">
-    </div>  --}}
+    </div> 
     <button type="submit" class="btn btn-primary">Cadastrar</button>
   </form>
 @endsection
